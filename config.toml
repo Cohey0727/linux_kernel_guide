@@ -1,4 +1,4 @@
 baseURL = "https://linux-kernel-guide.netlify.app/"
 languageCode = "en-us"
 title = "Kohei Linux Kernel Guide"
-theme = "ananke"
+theme = "sk3"
