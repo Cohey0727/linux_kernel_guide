@@ -1,0 +1,24 @@
+{{- define "main" -}}
+
+{{- $justify := false -}}
+{{- if eq .Params.justify true -}} {{- $justify = true -}} {{- end -}}
+<!-- mermaid -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.0/mermaid.js" integrity="sha512-dHJP+MwuyjWRF/igEF0a5YdI8wL64FG9qP5UxTsb2lKM0wm/NAgoqDbcOkoxr1aDOkqjXZmmwqK7u2MBdRDf6g==" crossorigin="anonymous"></script>
+<script type="text/javascript">window.onload = function() {mermaid.init(undefined, ".language-mermaid")}</script>
+<div class="article-container">
+    {{- partial "article-header.html" . -}}
+    <article class="article markdown-body" {{- if $justify -}}style="text-align: justify;" {{- end -}}>
+        {{- with .Params.cover -}}<p><img class="cover" src="{{- . | safeURL -}}" alt></p>{{- end -}}
+        {{- .Content -}}
+    </article>
+    
+    {{- partial "article-labels.html" . -}}
+    {{- partial "article-share.html" . -}}
+    {{- partial "article-license.html" . -}}
+    {{- partial "article-author.html" . -}}
+</div>
+<div class="article bottom">
+  {{- partial "article-bottom-navigation.html" . -}}
+  {{- partial "article-comments.html" . -}}
+</div>
+{{- end -}}
