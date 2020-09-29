@@ -63,8 +63,8 @@ paginate = 10
   # bgmImageChart = "000000"
 
   # License
-  license = "CC BY-NC-SA 4.0"
-  licenseLink = "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+  license = "MIT"
+  licenseLink = "https://opensource.org/licenses/MIT"
 
   # Comments
   # utterances, see: https://utteranc.es/
