@@ -1,6 +1,6 @@
 baseURL = "https://linux-kernel-guide.netlify.app/"
 title = "Kohei Linux Kernel Guide"
-theme = "notepadium"
+theme = "ananke"
 hasCJKLanguage = true
 enableEmoji = true
 enableRobotsTXT = true
