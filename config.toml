@@ -1,5 +1,5 @@
 baseURL = "https://linux-kernel-guide.netlify.app/"
-title = "Kohei Linux Kernel Guide"
+title = "Linux Kernel Guide"
 theme = "ananke"
 hasCJKLanguage = true
 enableEmoji = true
@@ -127,13 +127,9 @@ paginate = 10
 
   [[menu.link]]
     name = "GitHub"
-    url = "https://github.com/amzrk2"
+    url = "https://github.com/cohey0727"
     weight = 1
   [[menu.link]]
     name = "Twitter"
-    url = "https://twitter.com/amzrk2"
+    url = "https://twitter.com/cohey0727"
     weight = 2
-  [[menu.link]]
-    name = "bilibili"
-    url = "https://space.bilibili.com/19767474"
-    weight = 3

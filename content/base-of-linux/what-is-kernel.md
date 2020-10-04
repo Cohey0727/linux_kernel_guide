@@ -1,6 +1,8 @@
 ---
 title: Linuxカーネルとは何か
 date: 2020-09-29
+description: Linuxカーネルとは何か
+tags: ["base-of-linux"]
 ---
 
 # Linuxカーネルとは何か
